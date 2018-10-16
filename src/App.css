@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Open+Sans:800');
+
+.App {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 12px;
+}
+label {
+  display: block;
+}
+
+ul {
+  padding: 0;
+}
+
+button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  background: #E0E0E0;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.follower {
+  display: flex;
+  align-items: center;
+}
+
+.follower img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 18px;
+}
+
+.profile {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+}
+
+.profile__data {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.profile__data-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__button {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: 'Quicksand';
+  border-radius: 4px;
+}
+
+.event, .requests {
+  text-align: left;
+  list-style: none;
+  padding: 10px 14px;
+  margin: 16px 0px;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 3px;
+  color: #5f6368;
+  box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+}
+
+.requests p {
+  display: flex;
+  align-items: center;
+}
+
+.PRCard__State-open {
+  background-color: #B2FF59;
+}
+
+.PRCard__State-closed {
+  background-color: #FF5252;
+}
+
+.PRCard__State-open, .PRCard__State-closed {
+  margin-left: 40px;
+  color: white;
+  padding: 2px 6px; 
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 9px;
+}
